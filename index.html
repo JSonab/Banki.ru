@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Banki.ru</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="search">
+            <input type="search" placeholder="Сумма кредита" class="search__input cursor">
+        </div>
+
+        <div class="dropdown-filter cursor">
+            <p class="dropdown-filter__p">Сортировать</p>
+            <img src="img/free-icon-up-down-arrow-12153549.png" alt="up-down-arrow" class="dropdown-filter__img">
+        </div>
+
+        <div class="sort">
+            <h2>Сортировать</h2>
+            <p id="max">По максимальной сумме</p>
+            <p id="min">По минимальной сумме</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="bank cursor" data-summ="1000">
+                <div class="bank__up">
+                    <img src="img/T-bank.jpg" alt="T-bank" class="bank__img">
+                    <p>Т-Банк</p>
+                 </div>
+                <div class="bank__down">
+                    <p class="bank__down__p-first">Сумма</p>
+                    <div class="bank__down__summ">
+                        <p>1000</p>
+                        <img src="img/ruble_currency_icon_215811.svg" alt="currency">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bank cursor" data-summ="10000">
+                <div class="bank__up">
+                    <img src="img/VTB-bank.png" alt="VTB-bank" class="bank__img">
+                    <p>ВТБ</p>
+                </div>
+                <div class="bank__down">
+                    <p class="bank__down__p-first">Сумма</p>
+                    <div class="bank__down__summ">
+                        <p>10 000</p>
+                        <img src="img/ruble_currency_icon_215811.svg" alt="currency">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bank cursor" data-summ="20000">
+                <div class="bank__up">
+                    <img src="img/Pochta-bank.png" alt="Pochta-bank" class="bank__img">
+                    <p>Почта Банк</p>
+                </div>
+                <div class="bank__down">
+                    <p class="bank__down__p-first">Сумма</p>
+                    <div class="bank__down__summ">
+                        <p>20 000</p>
+                        <img src="img/ruble_currency_icon_215811.svg" alt="currency">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bank cursor" data-summ="20000">
+                <div class="bank__up">
+                    <img src="img/Loco-bank.jpg" alt="Loco-bank" class="bank__img">
+                    <p>Локо-Банк</p>
+                </div>
+                <div class="bank__down">
+                    <p class="bank__down__p-first">Сумма</p>
+                    <div class="bank__down__summ">
+                        <p>20 000</p>
+                        <img src="img/ruble_currency_icon_215811.svg" alt="currency">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bank cursor" data-summ="1000000">
+                <div class="bank__up">
+                    <img src="img/Sber-bank.png" alt="Sber-bank" class="bank__img">
+                    <p>Сбербанк</p>
+                </div>
+                <div class="bank__down">
+                    <p class="bank__down__p-first">Сумма</p>
+                    <div class="bank__down__summ">
+                        <p>1 000 000</p>
+                        <img src="img/ruble_currency_icon_215811.svg" alt="currency">
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="bank.js"></script>
+</body>
+</html>

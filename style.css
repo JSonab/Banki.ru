@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+  
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+  
+body {
+  line-height: 1;
+}
+  
+ol, ul {
+  list-style: none;
+}
+  
+blockquote, q {
+  quotes: none;
+}
+  
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+  
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+    background-color: #F1F5F9;
+    /* display: flex; */
+}
+
+main{
+    width: 100%;
+}
+
+.sort{
+    display: none;
+    margin-left: 6vw;
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    width: 85vw;
+    border-radius: 0.65rem;
+
+}
+
+.sort h2{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.sort p:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.search{
+    background-color: #fff;
+    width: 90vw;
+    display: flex;
+    margin: 5vmax auto 2vmax 6vw;
+    border-radius: 0.65rem;
+    max-height: calc(6.8rem + 2px);
+    font-family: "Inter", sans-serif;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.search__input{
+    width: 96%;
+    height: calc(3.8rem + 2px);
+    border: 2px solid #F6F7F9;
+    color:#848B99;
+    font-size: 1.3rem;
+    border-radius: 0.65rem;
+    margin: 1.2rem;
+    padding: 0.9rem;
+    align-items: center;
+    display: flex;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+.dropdown-filter{
+    margin-left: 6vw;
+    font-family: "Inter", sans-serif;
+    font-size: 2vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdown-filter__img{
+    height: 1em;
+    margin-left: 0.5em
+}
+
+.bank{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    margin-bottom: 3%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.12);
+    border-radius: 0.5rem;
+    height: 13vh;
+    margin-left: 6vw;
+    width: 84vw;
+}
+
+
+.cards{
+    margin-top: 2vmax;
+    font-family: "Inter", sans-serif;
+}
+.bank__img{
+    width: 7vh;
+    border-radius: 0.3rem;
+}
+
+.bank__up{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 2.3vh;
+
+}
+
+.bank__down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bank__down__summ img{
+    width: 2.3vh;
+}
+
+.bank__up p{
+    margin-left: 1rem;
+    margin-top: 0.2rem
+}
+
+.bank__down__summ{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 2.3vh;
+    color: #000;
+}
+
+.bank__down__p-first{
+    color:#848B99;
+    font-size: 0.8rem;
+}
+
+.bank__down{
+    margin-top: 2vh;
+}
+
+.bank:hover{
+    transform: scale(0.9);
+}
